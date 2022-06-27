@@ -16,14 +16,45 @@ Um elemento HTML é formado pela tag de abertura e seus atributos, o conteúdo e
 
 ## Tags
 
-#### html
-A tag html é a raiz do seu documento, define o início e fim de um documento.Todos os elementos HTML devem estar dentro dela, através do atributo lang informamos ao navegador o idioma do nosso documento.
+#### HTML
+A tag html é a raiz do seu documento, define o início e fim.Todos os elementos HTML devem estar dentro dela, através do atributo lang informamos ao navegador o idioma do nosso documento.
 
 
 ![carbon (6)](https://user-images.githubusercontent.com/104774341/175945337-7173baff-222b-4a28-ab2a-a3b21a2fda27.png)
 
-#### head
+#### HEAD
 A tag head representa o cabeçalho da página e apesar de não ser visualizado, este elemento providencia informações gerais (metadados) sobre o documento, incluindo seu título e links para scripts e folhas de estilos.
 
 
 ![carbon (7)](https://user-images.githubusercontent.com/104774341/175947445-aa81731a-89fc-4802-ac2c-3ce6ea3e95dd.png)
+
+#### BODY
+A tag body define o corpo do documento.
+O elemento **body** contém todo o conteúdo visual: como parágrafos, imagens, hiperlinks, tabelas, listas, etc.
+Obs: Só pode haver um <body> elemento em um documento HTML.
+ 
+ ![Sem-título-1](https://user-images.githubusercontent.com/104774341/175953392-54ec4724-8b19-4db5-94b2-3ca8b4210776.jpg)
+
+ 
+## Elementos Semânticos
+ A versão recente e mais utilizada (HTML5) trouxe alguns elementos que nos permite descrever mais precisamente o nosso conteúdo, agora um bloco de texto não é apenas uma div, agora é um article e tem mais significado.
+ 
+ ![carbon (1)](https://user-images.githubusercontent.com/104774341/175957453-267640e3-4a20-446f-aa96-20acf6bdf3d2.png)
+
+  * section: Representa uma seção genérica de conteúdo quando não houver um elemento mais específico para isso.
+  * header: É o cabeçalho da página ou de uma seção da página e normalmente contém logotipos, menus, campos de busca.
+  * article: Representa um conteúdo independente e de maior relevância dentro de uma página, é comum vermos em posts de blogs.Um article pode conter outros elementos, como header, cabeçalhos, parágrafos e imagens.
+  * aside: É uma seção que engloba conteúdos relacionados ao conteúdo principal e normalmente são representados como barras laterais. Ex: Biografia do autor.
+  * Footer: Define o rodapé do conteúdo ou de parte dele, pois ele é aceito dentro de vários elementos, como article e section e até do body.Pode ter vários **footer** elementos em um documento: 
+ 
+ ![footer(12)](https://user-images.githubusercontent.com/104774341/175966573-ec850301-5b1e-4847-bc19-cc72cb227300.jpg)
+
+  1. informações de autoria
+  2. Informações sobre direitos autorais
+  3. Informações de Contato
+  4. Mapa do site
+  5. Voltar ao topo links
+  6. Documentos relacionados
+ 
+ 
+ 
