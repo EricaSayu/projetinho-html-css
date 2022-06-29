@@ -56,5 +56,22 @@ Obs: Só pode haver um <body> elemento em um documento HTML.
   5. Voltar ao topo links
   6. Documentos relacionados
  
+ ## Textos e Links
+> **Cabeçalhos e Parágrafos**
+ O conteúdo estruturado é composto por títulos, subtítulos e parágrafos. São blocos que dividem o texto com histórias, artigos de jornais ou um livro tornando a experiência da leitura mais agradável. 
+ Num website ou receita de bolo também utilizamos algumas tags e atributos para organizar o texto.
+ 
+ Em HTML, cada parágrafo deve ser envolvido em um elemento < p >,assim:
+ 
+![paragrafo-1](https://user-images.githubusercontent.com/104774341/176479504-3ca635a2-c9ee-43d1-b189-080570dc7ace.jpg)
+
+ Cada título deve ser envolvido em um elemento h1:
+ 
+ ![titulo](https://user-images.githubusercontent.com/104774341/176480574-7fa7d174-b841-4268-b8f4-ea0502a78245.jpg)
+ 
+>O **h1** deve ser utilizado apenas uma vez por página, existem 6 elementos: h1 - h6.
+>São utilizados para indicar a importância dos títulos dividindo-os pela hierarquia.
+
+
  
  
